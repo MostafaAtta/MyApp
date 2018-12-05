@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My App</string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="login_activity_title">Login</string>
+    <string name="register_activity_title">Register</string>
+    <string name="main_activity_title">Main</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_logout">Logout</string>
+</resources>

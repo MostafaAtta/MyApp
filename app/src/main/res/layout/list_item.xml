@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/image_view"
+        android:layout_toLeftOf="@+id/delete"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="12dp">
+
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Order Title "
+            android:textSize="20sp"
+            android:layout_marginBottom="12dp"
+            tools:textColor="@android:color/black"/>
+
+
+        <TextView
+            android:id="@+id/desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold"
+            tools:text="Order Des"
+            tools:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/delete_image"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:src="@android:drawable/ic_delete"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "683199747201",
+    "firebase_url": "https://myapp-2fdbb.firebaseio.com",
+    "project_id": "myapp-2fdbb",
+    "storage_bucket": "myapp-2fdbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683199747201:android:d8333764e4324669",
+        "android_client_info": {
+          "package_name": "com.atta.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683199747201-sqacd5gfsk07b12dhscbnohuo48ml9c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoCypGXZVxDDchW9oTqZUxDgbc1slEQ3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

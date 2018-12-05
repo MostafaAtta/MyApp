@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_shape"
+    android:layout_margin="12dp"
+    android:layout_gravity="center">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/title_shape"
+        android:id="@+id/view" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:text="New Order"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/order_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Order Title"
+        android:layout_below="@+id/view"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"/>
+
+
+    <EditText
+        android:id="@+id/order_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Order Description"
+        android:layout_below="@+id/order_title"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"/>
+
+    <RelativeLayout
+        android:id="@+id/img_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_dis"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Order Image"
+            />
+
+        <ImageView
+            android:id="@+id/uploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@android:drawable/ic_menu_upload"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_layout"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Order"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_form"/>
+
+</RelativeLayout>
